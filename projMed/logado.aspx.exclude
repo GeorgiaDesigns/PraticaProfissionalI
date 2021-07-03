@@ -1,0 +1,145 @@
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="logado.aspx.cs" Inherits="logado" %>
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8" />  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Srikanth">
+    <title>Med Mais</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/the-big-picture.css" rel="stylesheet">
+    <link href="css/font-icon.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+    <!-- ============ Google fonts ============ -->
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet'
+        type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800'
+        rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <title></title>    
+</head>
+<body>
+    <form id="form1" runat="server">   
+        <h1>Bem vindo à sua página!!</h1>
+          <!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+		<div class="heading-contact">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-offset-2">
+					
+					<div class="section-heading">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<h2>Avaliações</h2>
+					</div>
+					<p class="wow lightSpeedIn" data-wow-delay="0.3s">Se você gostou ou não do atendimento, por favor informe aqui!</p>
+					</div>
+					
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+    <div class="row">
+        <div class="col-lg-8 col-md-offset-2">
+            <div class="form-wrapper marginbot-50">
+                <form id="contact-form">
+                <div class="row">
+    
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <%--<select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">Friendship request</option>
+                                <option value="suggestions">Wanna marry you</option>
+                                <option value="product">Prom night invitation</option>
+                            </select>--%>
+                        </div>
+          
+             
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+       
+           
+                        <button type="submit" class="btn btn-skin btn-block" id="btnContactUs">
+                            Send Message</button>
+       
+                </div>
+                </form>
+				
+            </div><br /><br />
+			<div class="text-center">
+					<p class="lead"><i class="fa fa-phone"></i> Call me +9 4578 1254 1452</p>
+			</div>
+        </div>
+
+    </div>	
+
+		</div>
+	</section>
+    <!-- /Section: avaliações -->
+               <!-- Footer section -->
+    <footer class="footer">
+  <div class="footer-top section-tb">
+    <div class="container">
+      <div class="row">
+        <div <%--class="footer-col col-md-4"--%>>
+          <h5>Nosso escritório</h5>
+          <p>Barão Geraldo - unicamp<br>
+            4512 0123 145689 / 9986523471<br>
+            123@exemplo.com</p>
+          <p>Copyright © 2017</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer top --> 
+  
+</footer>
+    <!-- Footer section-->  
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/wow.js" type="text/javascript"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        //WOW Scroll Spy
+        var wow = new WOW({
+            //disabled for mobile
+            mobile: false
+        });
+        wow.init();
+    </script>
+    </form>
+</body>
+</html>
